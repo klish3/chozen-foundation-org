@@ -1,17 +1,31 @@
-import chozen_logo from './logo192_czn.png';
-import './App.css';
+import './assets/css/App.css';
+import './assets/css/main.css';
+import './assets/css/Nav.css';
+import './assets/css/fontawesome-all.min.css';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+import Landing from './views/Landing';
+import About from './views/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={chozen_logo} className="App-logo" alt="logo" />
-        <p>
-        Coming soon....like in couple of hours soon 😆
-        </p>
-        Hi Tiddle, still dont know why I call you this
-      </header>
+    <Router>
+    <div>
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+      </Switch>
     </div>
+  </Router>
   );
 }
 
