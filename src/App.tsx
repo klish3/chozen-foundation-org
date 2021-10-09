@@ -1,23 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import chozen_logo from './logo192_czn.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={chozen_logo} className="App-logo" alt="logo" />
         <p>
-         Chozen Foundation
+        Coming soon....like in couple of hours soon 😆
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Hi Tiddle, still dont know why I call you this
       </header>
     </div>
   );
