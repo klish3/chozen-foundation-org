@@ -6,8 +6,7 @@ import './assets/css/fontawesome-all.min.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import Landing from './views/Landing';
 import About from './views/About';
