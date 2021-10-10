@@ -3722,7 +3722,7 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #FFE1B4;
 				}
 
 					#nav ul.links li.active a {
@@ -3756,7 +3756,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #FFE1B4;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -3766,7 +3766,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #F97C0B;
 			margin: 0;
 		}
 
@@ -4178,7 +4178,7 @@ input, select, textarea {
 				}
 
 			#footer .pagination a.active {
-				background-color: #e2e2e2;
+				background-color: #635959;
 			}
 
 		#footer .pagination span {

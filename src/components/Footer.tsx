@@ -40,7 +40,7 @@ return(
             <h3>Social</h3>
             <ul className="icons alt">
                 <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="mailto:the.chozenfoundation@gmail.com"><span className="label">Email</span></a></li>
+                <li><a href="mailto:the.chozenfoundation@gmail.com" className="icon fa-envelope"><span className="label">Mail</span></a></li>
             </ul>
         </section>
     </section>
