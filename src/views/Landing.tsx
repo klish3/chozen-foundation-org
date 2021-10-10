@@ -1,6 +1,5 @@
 import Footer from '../components/Footer';
 import LandingFeature from '../components/LandingFeature';
-import LandingPostCard from '../components/LandingPostCard';
 import Nav from '../components/Nav';
 const Landing = () => {
 	return (
