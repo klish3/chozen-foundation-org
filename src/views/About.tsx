@@ -2,7 +2,7 @@ import {
 	Link
   } from 'react-router-dom';
 
-export default function About() {
+const About = () => {
     return (
       <div id="wrapper">
 
@@ -105,3 +105,4 @@ export default function About() {
     );
   }
   
+export default About;

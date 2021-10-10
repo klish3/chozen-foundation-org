@@ -1,18 +1,18 @@
 import {
 	Link
   } from 'react-router-dom';
-function Landing() {
+import Footer from '../components/Footer';
+const Landing = () => {
   return (
 	<div id="wrapper" className="fade-in">
 
 	{/* <!-- Intro --> */}
 		<div id="intro">
 			<h1>We are <br /> chozen foundation</h1>
-			<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-			and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-			<ul className="actions">
+			<p>Building a bridge of hope and care to Zimbabwe 🇿🇼</p>
+			{/* <ul className="actions">
 				<li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-			</ul>
+			</ul> */}
 		</div>
 
 	{/* <!-- Header --> */}
@@ -29,10 +29,8 @@ function Landing() {
 				{/* <li><Link to="/dashboard">Dashboard</Link></li> */}
 			</ul>
 			<ul className="icons">
-				<li><a href="/" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-				<li><a href="/" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-				<li><a href="/" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-				<li><a href="/" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+				<li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
+				<li><a href="mailto:the.chozenfoundation@gmail.com"><span className="label">Mail</span></a></li>
 			</ul>
 		</nav>
 
@@ -42,7 +40,6 @@ function Landing() {
 			{/* <!-- Featured Post --> */}
 				<article className="post featured">
 					<header className="major">
-						<span className="date">April 25, 2017</span>
 						<h2><a href="/">And this is a<br />
 						massive headline</a></h2>
 						<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
@@ -131,75 +128,14 @@ function Landing() {
 					</article>
 				</section>
 
-			{/* <!-- Footer --> */}
-				<footer>
-					<div className="pagination">
-						<a href="/" className="previous">Prev</a>
-						<a href="/" className="page active">1</a>
-						<a href="/" className="page">2</a>
-						<a href="/" className="page">3</a>
-						<span className="extra">&hellip;</span>
-						<a href="/" className="page">8</a>
-						<a href="/" className="page">9</a>
-						<a href="/" className="page">10</a>
-						<a href="/" className="next">Next</a>
-					</div>
-				</footer>
-
 		</div>
 
 	{/* <!-- Footer --> */}
-		<footer id="footer">
-			<section>
-				<form method="post" action="#">
-					<div className="fields">
-						<div className="field">
-							<label htmlFor="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div className="field">
-							<label htmlFor="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div className="field">
-							<label htmlFor="message">Message</label>
-							<textarea name="message" id="message" rows={3} ></textarea>
-						</div>
-					</div>
-					<ul className="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-			</section>
-			<section className="split contact">
-				<section className="alt">
-					<h3>Address</h3>
-					<p>1234 Somewhere Road #87257<br />
-					Nashville, TN 00000-0000</p>
-				</section>
-				<section>
-					<h3>Phone</h3>
-					<p><a href="/">(000) 000-0000</a></p>
-				</section>
-				<section>
-					<h3>Email</h3>
-					<p><a href="/">info@untitled.tld</a></p>
-				</section>
-				<section>
-					<h3>Social</h3>
-					<ul className="icons alt">
-						<li><a href="/" className="icon brands alt fa-twitter"><span className="label">Twitter</span></a></li>
-						<li><a href="/" className="icon brands alt fa-facebook-f"><span className="label">Facebook</span></a></li>
-						<li><a href="/" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-						<li><a href="/" className="icon brands alt fa-github"><span className="label">GitHub</span></a></li>
-					</ul>
-				</section>
-			</section>
-		</footer>
+	<Footer />
 
 	{/* <!-- Copyright --> */}
 		<div id="copyright">
-			<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">klish3.com</a></li></ul>
 		</div>
 
 </div>
