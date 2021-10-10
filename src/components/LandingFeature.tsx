@@ -56,6 +56,17 @@ const LandingFeature = () => {
                     </ul>
                 </header>
             </article>
+            <article className="post featured">
+                <header className="major">
+                    <h2>Our Focus</h2>
+                    <ul className="value-list">
+                    <li>Education </li>
+                    <li>Food Poverty</li>
+                    <li>Maternal and Child Health </li>
+                    <li>Family and Domestic Violence</li>
+                    </ul>
+                </header>
+            </article>
         </div>
 
 

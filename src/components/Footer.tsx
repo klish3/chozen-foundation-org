@@ -1,7 +1,8 @@
-const Footer = () =>{ 
-return(
-    <footer id="footer">
-    {/* <section>
+const Footer = () => {
+    return (
+        <div>
+            <footer id="footer">
+                {/* <section>
         <form method="post" action="#">
             <div className="fields">
                 <div className="field">
@@ -22,8 +23,8 @@ return(
             </ul>
         </form>
     </section> */}
-    <section className="split contact">
-        {/* <section className="alt">
+                <section className="split contact">
+                    {/* <section className="alt">
             <h3>Address</h3>
             <p>1234 Somewhere Road #87257<br />
             Nashville, TN 00000-0000</p>
@@ -36,16 +37,21 @@ return(
             <h3>Email</h3>
             <p><a href="/">info@untitled.tld</a></p>
         </section> */}
-        <section>
-            <h3>Social</h3>
-            <ul className="icons alt">
-                <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="mailto:the.chozenfoundation@gmail.com" className="icon fa-envelope"><span className="label">Mail</span></a></li>
-            </ul>
-        </section>
-    </section>
-</footer>
-);
+                    <section>
+                        <h3>Social</h3>
+                        <ul className="icons alt">
+                            <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
+                            <li><a href="mailto:the.chozenfoundation@gmail.com" className="icon fa-envelope"><span className="label">Mail</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+            {/* <!-- Copyright --> */}
+            <div id="copyright">
+                <ul><li>&copy; Chozen Foundation</li></ul>
+            </div>
+        </div>
+    );
 }
 
 export default Footer;

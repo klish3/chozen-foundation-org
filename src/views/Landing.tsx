@@ -61,10 +61,7 @@ const Landing = () => {
 			{/* <!-- Footer --> */}
 			<Footer />
 
-			{/* <!-- Copyright --> */}
-			<div id="copyright">
-				<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">klish3.com</a></li></ul>
-			</div>
+
 
 		</div>
 	);
