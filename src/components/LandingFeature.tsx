@@ -1,52 +1,46 @@
-import logo from '../assets/images/chozen_logo_ybg.png';
+
+import pic01 from '../assets/images/pic01.jpg';
+import pic02 from '../assets/images/pic02.jpg';
+import pic03 from '../assets/images/pic03.jpg';
+import pic04 from '../assets/images/pic04.jpg';
 const LandingFeature = () => {
     return (
         <div>
-            <section className="post">
-            <div className="image main"><img src={logo} width={210} alt="" /></div>
-                <header className="major">
+            <article className="post">
 
-                    <h1>Our Story</h1>
-                    <p>Chozen Foundation was established in January 2021 as a result of a personal Christmas donations initiative run by the founder Taida Chigogora. This initiative was called Fill A  Backpack for Zimbabwe. This initiative asked the community to fill backpacks with  preloved and brand new clothing and resources for disadvantaged and vulnerable  communities in Zimbabwe. These items
-                        ranged from clothing, sanitary ware, blankets
-                        and school stationery. The incredible
-                        response to this initiative then led to the birth
-                        of Chozen Foundation. A not-for-profit
-                        providing care and support to disadvantaged
-                        and vulnerable people in Zimbabwe. Chozen
-                        Foundation sees itself as a bridge. A bridge
-                        between the communities needing support
-                        and those who are wanting to help. This is
-                        why Chozen Foundation aims to build
-                        valuable and long-term partnerships with
-                        organisations who align with the organisation’s mission and vision.
-                        Chozen Foundation is currently in the process of recruiting a board of directors who will  assist in developing the direction and governance of the organisation.
-                    </p>
-                </header>
-          
-                
-            </section>
-
-            <article className="post featured">
                 <header className="major">
-                    <h2>What We Do</h2>
+                    <h2>Who we are</h2>
                     <p>We are currently collecting clothing, sanitary ware, shoes, baby-care and cash  donations to send to vulnerable communities in Zimbabwe. Our main goal at the  moment is to raise adequate funding to send a shipping container to Zimbabwe.  We currently have a number of boxes of donations waiting to be sent. We are a  collaborative charity. Creating long-term partnerships is one of our key goals</p>
+                    <img src={pic01} alt="" />
+                    <ul className="actions special">
+                        <li><a href="/" className="button large">Full Story</a></li>
+                    </ul>
                 </header>
-            </article>
-            <article className="post featured">
-                <header className="major">
-                    <h2>Mission Statement</h2>
+                <header>
+                    <h2>Our Mission</h2>
                     <p>To be the catalyst of change for vulnerable and disadvantaged Zimbabweans</p>
                 </header>
-            </article>
-            <article className="post featured">
-                <header className="major">
-                    <h2>Vision Statement</h2>
+
+                <header>
+                    <h2>Our Statement</h2>
                     <p>To create a world where all Zimbabweans are supported to live purposeful and  meaningful lives.</p>
                 </header>
+
+
+            </article>
+            <article>
+                
+                
+                <div className="box alt">
+                    <div className="row gtr-50 gtr-uniform">
+                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
+                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
+                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
+                    </div>
+                </div>
             </article>
             <article className="post featured">
-                <header className="major">
+                <header>
                     <h2>Our Values</h2>
                     <ul className="value-list">
                         <li>Commitment - We are dedicated to changing lives.</li>
@@ -55,18 +49,21 @@ const LandingFeature = () => {
                         <li>Conscientiousness - We are best when we are diligent.</li>
                     </ul>
                 </header>
-            </article>
-            <article className="post featured">
-                <header className="major">
+                <header>
                     <h2>Our Focus</h2>
                     <ul className="value-list">
-                    <li>Education </li>
-                    <li>Food Poverty</li>
-                    <li>Maternal and Child Health </li>
-                    <li>Family and Domestic Violence</li>
+                        <li>Education </li>
+                        <li>Food Poverty</li>
+                        <li>Maternal and Child Health </li>
+                        <li>Family and Domestic Violence</li>
                     </ul>
                 </header>
+
             </article>
+
+
+
+
         </div>
 
 

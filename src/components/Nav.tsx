@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
     return (
         <nav id="nav">
-        <ul className="links">
-        
-            <li className="active"><Link to="/">Home</Link></li>
+            <ul className="links">
 
-            {/* <li><Link to="/about">About us</Link></li> */}
+                <li><NavLink activeClassName='is-active' exact={true} to="/">Chozen</NavLink></li>
 
-        </ul>
-        <ul className="icons">
-            <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="mailto:the.chozenfoundation@gmail.com" className="icon fa-envelope"><span className="label">Mail</span></a></li>
-        </ul>
-    </nav>
+                <li><NavLink activeClassName='is-active' to="/story">Our Story</NavLink></li>
+
+            </ul>
+            <ul className="icons">
+                <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
+                <li><a href="mailto:the.chozenfoundation@gmail.com" className="icon fa-envelope"><span className="label">Mail</span></a></li>
+            </ul>
+        </nav>
     );
 }
 

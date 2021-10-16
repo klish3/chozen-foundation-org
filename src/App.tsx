@@ -9,9 +9,9 @@ import {
   Route
 } from 'react-router-dom';
 import Landing from './views/Landing';
-import About from './views/About';
+import Story from './views/Story';
 
-function App() {
+const App = () => {
   return (
     <Router>
     <div>
@@ -19,8 +19,8 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path="/story">
+          <Story />
         </Route>
       </Switch>
     </div>
