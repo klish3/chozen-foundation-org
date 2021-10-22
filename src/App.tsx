@@ -12,6 +12,7 @@ import Landing from './views/Landing';
 import Story from './views/Story';
 
 const App = () => {
+  
   return (
     <Router>
     <div>

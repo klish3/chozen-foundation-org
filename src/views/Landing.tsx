@@ -1,5 +1,7 @@
 import Footer from '../components/Footer';
 import LandingFeature from '../components/LandingFeature';
+import LandingSectionThree from '../components/LandingSectionThree';
+import LandingSectionTwo from '../components/LandingSectionTwo';
 import Nav from '../components/Nav';
 const Landing = () => {
 	return (
@@ -25,12 +27,18 @@ const Landing = () => {
 
 			{/* <!-- Main --> */}
 			<div id="main">
-
 				{/* <!-- Featured Post --> */}
 				<LandingFeature />
-
-			
-
+			</div>
+			<br />
+			<div id="main">
+				{/* <!-- Featured Post --> */}
+				<LandingSectionTwo />
+			</div>
+			<br />
+			<div id="main">
+				{/* <!-- Featured Post --> */}
+				<LandingSectionThree />
 			</div>
 
 			{/* <!-- Footer --> */}

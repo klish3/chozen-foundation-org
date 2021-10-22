@@ -1,12 +1,14 @@
-
-
-import pic02 from '../assets/images/pic02.jpg';
-
+import pic08 from '../assets/images/home_1.jpg';
+import pic09 from '../assets/images/home_2.jpg';
 const LandingFeature = () => {
     return (
         <div>
-            <article className="post featured">
-                <header>
+
+            <section>
+
+                <p>
+                    <span className="image left"><img src={pic08} alt="" /></span>
+                    <br />
                     <h2>Our Values</h2>
                     <ul className="value-list">
                         <li>Commitment - We are dedicated to changing lives.</li>
@@ -14,49 +16,30 @@ const LandingFeature = () => {
                         <li>Collaboration - We are best when united.</li>
                         <li>Conscientiousness - We are best when we are diligent.</li>
                     </ul>
-                </header>
-                <header>
-                    <h2>Our Focus</h2>
-                    <ul className="value-list">
+                </p>
+
+                <br />
+                <br />
+                <br />
+
+                <p>
+                    <span className="image right "><img src={pic09} alt="" /></span>
+                    <br />
+                    <h2 className="text-align-right">Our Focus</h2>
+                    <ul className="value-list text-align-right">
                         <li>Education </li>
                         <li>Food Poverty</li>
                         <li>Maternal and Child Health </li>
                         <li>Family and Domestic Violence</li>
                     </ul>
-                </header>
-
-            </article>
-            <header>
-                <h2>Our Mission</h2>
-                <p>To be the catalyst of change for vulnerable and disadvantaged Zimbabweans</p>
-            </header>
-
-            <header>
-                <h2>Our Statement</h2>
-                <p>To create a world where all Zimbabweans are supported to live purposeful and  meaningful lives.</p>
-            </header>
-
-       
-            <article>
-
-
-                <div className="box alt">
-                    <div className="row gtr-50 gtr-uniform">
-                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
-                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
-                        <div className="col-4"><span className="image fit"><img src={pic02} alt="" /></span></div>
-                    </div>
-                </div>
-            </article>
-
-
-
-
-
+                </p>
+                <br />
+                <br />
+                <br />
+            </section>
         </div>
 
 
     );
 }
-
 export default LandingFeature;
