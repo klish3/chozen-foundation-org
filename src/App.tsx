@@ -10,6 +10,8 @@ import {
 } from 'react-router-dom';
 import Landing from './views/Landing';
 import Story from './views/Story';
+import Donations from './views/Donate';
+import Champions from './views/Champions';
 
 const App = () => {
   
@@ -22,6 +24,12 @@ const App = () => {
         </Route>
         <Route path="/story">
           <Story />
+        </Route>
+        <Route path="/champions">
+          <Champions />
+        </Route>
+        <Route path="/donate">
+          <Donations />
         </Route>
       </Switch>
     </div>

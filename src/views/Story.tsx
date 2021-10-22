@@ -1,8 +1,7 @@
 import Nav from '../components/Nav';
 import logo from '../assets/images/chozen_logo_ybg.png';
 import Footer from '../components/Footer';
-import pic08 from '../assets/images/pic08.jpg';
-import pic09 from '../assets/images/pic09.jpg';
+
 const Story = () => {
   return (
     <div id="wrapper">
@@ -17,7 +16,7 @@ const Story = () => {
       {/* <!-- Main --> */}
       <div id="main">
         <section className="post">
-          <div className="image main"><img src={logo} width={210} alt="" /></div>
+          <div className="image main"><img src={logo} width={50} alt="" /></div>
           <header className="major">
 
             <h1>Our Story</h1>
@@ -39,12 +38,12 @@ const Story = () => {
           </header>
         </section>
 
-        <section>
+        {/* <section>
           <h3>Left &amp; Right</h3>
           <p><span className="image left"><img src={pic08} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
           <p><span className="image right"><img src={pic09} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
         </section>
-    
+     */}
 
       <section>
         <h1>The Stories</h1>
@@ -77,12 +76,6 @@ const Story = () => {
       </div>
       {/* <!-- Footer --> */}
       <Footer />
-
-      {/* <!-- Copyright --> */}
-      <div id="copyright">
-        <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-      </div>
-
     </div>
   );
 }
