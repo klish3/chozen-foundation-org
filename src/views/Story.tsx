@@ -8,7 +8,7 @@ const Story = () => {
 
       {/* <!-- Header --> */}
       <header id="header">
-        <a href="index.html" className="logo">Our story</a>
+        <a href="/" className="logo">Our story</a>
       </header>
 
       <Nav />

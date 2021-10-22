@@ -7,7 +7,7 @@ const Donations = () =>{
 
       {/* <!-- Header --> */}
       <header id="header">
-        <a href="index.html" className="logo">Donate</a>
+        <a href="/" className="logo">Donate</a>
       </header>
 
       <Nav />
