@@ -10,6 +10,7 @@ const Nav = () => {
                 <li><NavLink activeClassName='is-active' to="/story">Our Story</NavLink></li>
                 <li><NavLink activeClassName='is-active' to="/champions">Our Champoins</NavLink></li>
                 <li><NavLink activeClassName='is-active' to="/donate">Donate</NavLink></li>
+                <li><NavLink activeClassName='is-active' to="/work">Our work</NavLink></li>
             </ul>
             <ul className="icons">
                 <li><a href="https://www.instagram.com/chozenfoundation/" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>

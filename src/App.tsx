@@ -12,6 +12,7 @@ import Landing from './views/Landing';
 import Story from './views/Story';
 import Donations from './views/Donate';
 import Champions from './views/Champions';
+import Work from './views/Work';
 
 const App = () => {
   
@@ -30,6 +31,9 @@ const App = () => {
         </Route>
         <Route path="/donate">
           <Donations />
+        </Route>
+        <Route path="/work">
+          <Work />
         </Route>
       </Switch>
     </div>
