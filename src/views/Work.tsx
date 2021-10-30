@@ -1,6 +1,6 @@
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import Gallery from '../components/Gallery';
+
 
 const Work = () => {
     return (
@@ -24,9 +24,9 @@ const Work = () => {
                                 {/* <span className="date">April 24, 2017</span> */}
                                 <h2>The Big Pack</h2>
                             </header>
-                           
+                           <p>pics coming soon</p>
                            				{/* <!-- Gallery --> */}
-				<Gallery />
+				{/* <Gallery /> */}
                            
                         </article>
                        
