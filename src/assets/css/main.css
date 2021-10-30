@@ -1,6 +1,6 @@
 @import url(./fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -310,16 +310,16 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left-color: #eeeeee;
+		border-left-color: #FFCD83;
 	}
 
 	code {
 		background: rgba(220, 220, 220, 0.25);
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #FFCD83;
 	}
 
 /* Row */
@@ -2056,11 +2056,11 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 /* Button */
-
+/* 
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2235,7 +2235,7 @@ input, select, textarea {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: #18bfef;
-			}
+			} */
 
 /* Form */
 
@@ -2483,7 +2483,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 		input[type="text"]:focus,
@@ -2495,7 +2495,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23FFCD83' /%3E%3C/svg%3E");
 	}
 
 		select option {
@@ -2504,7 +2504,7 @@ input, select, textarea {
 		}
 
 	.select-wrapper:before {
-		color: #eeeeee;
+		color: #FFCD83;
 	}
 
 	input[type="checkbox"] + label,
@@ -2514,7 +2514,7 @@ input, select, textarea {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			border-color: #eeeeee;
+			border-color: #FFCD83;
 		}
 
 	input[type="checkbox"]:checked + label:before,
@@ -2886,7 +2886,7 @@ input, select, textarea {
 		}
 
 	ul.divided li {
-		border-top-color: #eeeeee;
+		border-top-color: #FFCD83;
 	}
 
 	ul.icons li a.icon:hover:before {
@@ -2894,7 +2894,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li .icon:before {
-		box-shadow: inset 0 0 0 2px #eeeeee;
+		box-shadow: inset 0 0 0 2px #FFCD83;
 	}
 
 	ul.icons.alt li a.icon:hover:before {
@@ -2997,7 +2997,7 @@ input, select, textarea {
 		}
 
 	header.major .date:before, header.major .date:after {
-		border-top-color: #eeeeee;
+		border-top-color: #FFCD83;
 	}
 
 /* Table */
@@ -3076,7 +3076,7 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -3088,15 +3088,15 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #FFCD83;
 	}
 
 	table tfoot {
-		border-top-color: #eeeeee;
+		border-top-color: #FFCD83;
 	}
 
 	table.alt tbody tr td {
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 /* Pagination */
@@ -3189,7 +3189,7 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #FFCD83;
 	}
 
 	.pagination a {
@@ -3208,11 +3208,11 @@ input, select, textarea {
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color: #FFCD83;
 		}
 
 	.pagination span {
-		color: #eeeeee;
+		color: #FFCD83;
 	}
 
 /* Wrapper */
@@ -3235,10 +3235,10 @@ input, select, textarea {
 			height: 100%;
 			background-color: #212931;
 			background-image: url("../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/chzen-landing-bg.png");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-size: 150% ;
+			background-position: top center,top center;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
 			z-index: -1;
 		}
 
@@ -3766,7 +3766,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #F97C0B;
+			border-top: solid 2px #FFCD83;
 			margin: 0;
 		}
 
@@ -3862,7 +3862,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #FFCD83;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
@@ -4562,7 +4562,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #FFE1B4;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -4583,7 +4583,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #FFCD83;
 			}
 
 				#navPanel .links li a {

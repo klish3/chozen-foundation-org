@@ -9,9 +9,13 @@ import {
   Route
 } from 'react-router-dom';
 import Landing from './views/Landing';
-import About from './views/About';
+import Story from './views/Story';
+import Donations from './views/Donate';
+import Champions from './views/Champions';
+import Work from './views/Work';
 
-function App() {
+const App = () => {
+  
   return (
     <Router>
     <div>
@@ -19,8 +23,17 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path="/story">
+          <Story />
+        </Route>
+        <Route path="/champions">
+          <Champions />
+        </Route>
+        <Route path="/donate">
+          <Donations />
+        </Route>
+        <Route path="/work">
+          <Work />
         </Route>
       </Switch>
     </div>
