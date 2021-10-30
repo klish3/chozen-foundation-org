@@ -1,5 +1,5 @@
-import { initializeApp } from '@firebase/app';
-import firebaseConfig from '../firebase.config'
+// import { initializeApp } from '@firebase/app';
+// import firebaseConfig from '../firebase.config'
 import { getStorage, ref, getDownloadURL, listAll } from "@firebase/storage";
 
 interface imageInt {
@@ -8,7 +8,7 @@ interface imageInt {
 }
 const images: imageInt[] = [];
 // eslint-disable-next-line
-initializeApp(firebaseConfig);
+// initializeApp(firebaseConfig);
 
 const storage = getStorage();
 // Create a reference under which you want to list
