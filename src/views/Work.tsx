@@ -1,5 +1,6 @@
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Gallery from '../components/Gallery';
 
 const Work = () => {
     return (
@@ -14,7 +15,21 @@ const Work = () => {
                 <Nav />
                 <div id="main">
                     <section>
-                        <h1>The Work</h1>
+                        <h1>Our Work</h1>
+                    </section>
+                    <section>
+
+                        <article>
+                            <header>
+                                {/* <span className="date">April 24, 2017</span> */}
+                                <h2>The Big Pack</h2>
+                            </header>
+                           
+                           				{/* <!-- Gallery --> */}
+				<Gallery />
+                           
+                        </article>
+                       
                     </section>
                     <section className="posts">
 

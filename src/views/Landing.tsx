@@ -3,6 +3,8 @@ import LandingFeature from '../components/LandingFeature';
 import LandingSectionThree from '../components/LandingSectionThree';
 import LandingSectionTwo from '../components/LandingSectionTwo';
 import Nav from '../components/Nav';
+
+
 const Landing = () => {
 	return (
 		<div id="wrapper" className="fade-in">
@@ -13,23 +15,23 @@ const Landing = () => {
 				<h1>Chozen Foundation</h1>
 
 				<ul className="actions">
-				<li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-			</ul>
+					<li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
 			</div>
 
 			{/* <!-- Header --> */}
 			<header id="header">
-				<a href="index.html" className="logo">We are Cho<span className="z-text-heading">z</span>en</a>
+				<a href="/" className="logo">We are Cho<span className="z-text-heading">z</span>en</a>
 			</header>
 
 			{/* <!-- Nav --> */}
 			<Nav />
 
 			{/* <!-- Main --> */}
-			<div id="main">
-				{/* <!-- Featured Post --> */}
-				<LandingFeature />
-			</div>
+
+			{/* <!-- Featured Post --> */}
+			<LandingFeature />
+		
 			<br />
 			<div id="main">
 				{/* <!-- Featured Post --> */}
