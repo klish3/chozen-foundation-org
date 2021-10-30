@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import { initializeApp } from '@firebase/app';
-import firebaseConfig from './firebase.config'
+// import { initializeApp } from '@firebase/app';
+// import firebaseConfig from './firebase.config'
 
 // eslint-disable-next-line
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 ReactDOM.render(
   <React.StrictMode>
     <App />
