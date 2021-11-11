@@ -14,9 +14,6 @@ const Landing = () => {
 				<p>We are building the bridge of hope to care for Zimbabwe 🇿🇼</p>
 				<h1>Chozen Foundation</h1>
 
-				<ul className="actions">
-					<li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-				</ul>
 			</div>
 
 			{/* <!-- Header --> */}
@@ -26,8 +23,6 @@ const Landing = () => {
 
 			{/* <!-- Nav --> */}
 			<Nav />
-
-			{/* <!-- Main --> */}
 
 			{/* <!-- Featured Post --> */}
 			<LandingFeature />

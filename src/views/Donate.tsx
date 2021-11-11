@@ -14,7 +14,7 @@ const Donations = () =>{
 
       {/* <!-- Main --> */}
       <div id="main">
-        <h1>COMING</h1>
+        <p>Details on how to donate are coming soon</p>
       </div>
       {/* <!-- Footer --> */}
       <Footer />

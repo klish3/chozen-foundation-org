@@ -21,8 +21,7 @@ const LandingFeature = () => {
                         </ul>
                     </p>
                     <br />
-                    <br />
-                    <br />
+                 
                 </section>
             </div>
             <br />
@@ -32,7 +31,7 @@ const LandingFeature = () => {
                 <section>
                     <p>
                         <span className="image right "><img src={pic09} alt="" /></span>
-                        <br />
+                        
                         <h2 className="text-align-right">Our Focus</h2>
                         <ul className="value-list text-align-right">
                             <li>Education </li>
@@ -41,9 +40,8 @@ const LandingFeature = () => {
                             <li>Family and Domestic Violence</li>
                         </ul>
                     </p>
-                    <br />
-                    <br />
-                    <br />
+                
+       
                 </section>
             </div>
 

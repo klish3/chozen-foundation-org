@@ -13,7 +13,13 @@ const Champions = () => {
             <Nav />
             {/* <!-- Main --> */}
             <div id="main">
-                <h1>🏆</h1>
+                <p>
+                    <strong>
+                    Want to become a Chozen Champion?
+                    </strong>
+                    <br />
+                    Details on how to become a Chozen Champion will be coming soon🏆
+                </p>
             </div>
 
             <Footer />
