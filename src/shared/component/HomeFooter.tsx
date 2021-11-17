@@ -1,13 +1,18 @@
-const Footer = () => {
+const HomeFooter = () => {
     return (
         <div>
 
-            <footer className="p-10 footer bg-base-200 text-base-content footer-center">
+            <footer className="mt-10 p-10 footer  text-base-content footer-center">
                 <div className="grid grid-flow-col gap-4">
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <div className="form-control">
+                        <label className="label pb-4">
+                            <span className="label-text">SIGN UP FOR OUR NEWSLETTER</span>
+                        </label>
+                        <div className="relative">
+                            <input type="text" placeholder="Enter your email address here" className="w-full pr-16 input input-primary input-bordered" />
+                            <button className="absolute top-0 right-0 rounded-l-none btn btn-primary">SUBMIT</button>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
@@ -28,9 +33,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                <div>
-                    <p>Copyright © 2021 - All right reserved by ACME Industries Ltd</p>
-                </div>
+
             </footer>
 
 
@@ -38,4 +41,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default HomeFooter;

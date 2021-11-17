@@ -9,7 +9,8 @@ import Donations from './views/Donate';
 import Champions from './views/Champions';
 import Work from './views/Work';
 import Home from './views/Home';
-import TopNav from './shred/component/TopNav';
+import TopNav from './shared/component/TopNav';
+
 
 const App = () => {
 
@@ -37,6 +38,7 @@ const App = () => {
           </Route>
         </Switch>
       </div>
+
     </Router>
   );
 }

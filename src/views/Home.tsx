@@ -1,16 +1,21 @@
-import Hero from '../components/Home/Hero';
-import HomeCarousel from '../shred/component/HomeCarousel';
-import HomeGrid from '../shred/component/HomeGrid';
-import HomeGridTwo from '../shred/component/HomeGridTwo';
+
+
+import HomeBanner from '../shared/component/HomeBanner';
+import HomeCarousel from '../shared/component/HomeCarousel';
+import HomeFooter from '../shared/component/HomeFooter';
+import HomeGrid from '../shared/component/HomeGrid';
+import HomeGridTwo from '../shared/component/HomeGridTwo';
 
 const Home = () => {
     return (
         <div>
-
             <HomeCarousel />
             <HomeGrid />
-            <Hero />
+            <HomeBanner />
             <HomeGridTwo />
+            {/* HomePartners */}
+            {/* HomeNewsletter */}
+            <HomeFooter />
         </div>
     );
 }
