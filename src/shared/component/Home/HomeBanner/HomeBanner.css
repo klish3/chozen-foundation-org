@@ -1,0 +1,6 @@
+.bg-xmas-img {
+    background-image:url('../../../../assets/images/xmas-banner-bg.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}

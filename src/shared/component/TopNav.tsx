@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import HomeHeaderBanner from "./HomeHeaderBanner";
+import HomeHeaderBanner from "./Home/HomeHeaderBanner";
 
 const TopNav = () => {
 
@@ -7,7 +7,7 @@ const TopNav = () => {
         <div>
 
             <HomeHeaderBanner />
-            <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+            <div className="navbar mb-2 shadow-lg bg-info text-neutral-content">
                 <div className="hidden px-2 mx-auto navbar-center lg:flex">
                     <div className="flex items-stretch">
                         <Link to="/" className="btn btn-ghost btn-sm rounded-btn">
