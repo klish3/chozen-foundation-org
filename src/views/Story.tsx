@@ -1,5 +1,5 @@
 import Nav from '../components/Nav';
-import logo from '../assets/images/chozen_logo_ybg.png';
+import logo from '../assets/images/chozen_logo_transparent.png';
 import Footer from '../components/Footer';
 
 const Story = () => {
