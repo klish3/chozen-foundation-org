@@ -3,7 +3,6 @@ const HomeBanner = () => {
     return (
 
         <div className="hero h-96 my-5 bg-xmas-img">
-            <div className="hero-overlay bg-opacity-60"></div>
             <div className="text-center w-full text-neutral-content items-end pr-20">
                 <div className="ml-auto w-96">
                     <h1 className="mb-3 text-3xl font-bold">

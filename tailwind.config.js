@@ -1,6 +1,7 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   plugins: [
+    require('@tailwindcss/typography'),
     require('daisyui'),
   ],
   theme: {
@@ -12,10 +13,9 @@ module.exports = {
   variants: {
     extend: {},
   },
-
   daisyui: {
     themes: [
-      'light', // first one will be the default theme
+      'light',
     ],
   },
 }

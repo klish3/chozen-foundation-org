@@ -9,6 +9,8 @@
     "@firebase/auth": "^0.19.0",
     "@firebase/firestore": "^3.2.0",
     "@firebase/storage": "^0.8.4",
+    "@headlessui/react": "^1.4.2",
+    "@tailwindcss/typography": "^0.4.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -21,6 +23,7 @@
     "dotenv": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
     "react-image-gallery": "^1.2.7",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
@@ -45,7 +48,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "deploy:tst": "npm run build && firebase hosting:channel:deploy tst",
+    "deploy:tst": "craco build && firebase hosting:channel:deploy tst",
     "test:react": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -71,6 +74,7 @@
     "@types/react-image-gallery": "^1.0.5",
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
+    "sass": "^1.43.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }

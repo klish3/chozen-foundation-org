@@ -1,20 +1,21 @@
 import { HomeGridCardObj } from "../../../Models/home-grid-obj.model";
 import HomeGridCard from "./HomeGridCard";
+import './HomeGrid.scss';
 
 let homegridObj: HomeGridCardObj[] = [{
     title: 'mission',
-    desc: 'Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.',
-    color: 'warning'
+    desc: 'To be the catalyst of change for vulnerable and disadvanatged Zimbabweans',
+    color: 'mission-card'
 },
 {
     title: 'vision',
-    desc: 'Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.',
-    color: 'error'
+    desc: 'A world where all Zimbabweans in need are supported to live meaningful and purposeful lives',
+    color: 'vision-card'
 },
 {
     title: 'values',
-    desc: 'Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.',
-    color: 'primary'
+    desc: 'Commitment \n Compassion \n Collaboration \n Conscientiousnes',
+    color: 'values-card'
 }];
 
 const HomeGrid = () => {
