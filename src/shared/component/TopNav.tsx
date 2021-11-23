@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import { Disclosure } from '@headlessui/react'
 import HomeHeaderBanner from "./Home/HomeHeaderBanner";
-import { X, MoreVertical, Menu } from 'react-feather';
-import { Fragment } from "react";
+import { X, Menu } from 'react-feather';
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
     { name: 'About', href: '/about', current: false },
     { name: 'Projects', href: '/projects', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    { name: 'Contact', href: '/contact', current: false },
+    { name: 'Donate', href: '/donate', current: false },
 ]
 const classNames = (...classes: string[]) => {
     return classes.filter(Boolean).join(' ')
