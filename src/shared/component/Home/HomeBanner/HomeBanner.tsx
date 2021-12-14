@@ -1,10 +1,10 @@
-import './HomeBanner.css'
+import './HomeBanner.scss'
 const HomeBanner = () => {
     return (
 
         <div className="hero h-96 my-5 bg-xmas-img">
-            <div className="text-center w-full text-neutral-content items-end pr-20">
-                <div className="ml-auto w-96">
+            <div className="text-center w-full text-neutral-content items-end lg:pr-20">
+                <div className="lg:ml-auto md:m-auto w-96">
                     <h1 className="mb-3 text-3xl font-bold">
 
                         <span className="text-warning">WE NEED YOUR HELP </span>

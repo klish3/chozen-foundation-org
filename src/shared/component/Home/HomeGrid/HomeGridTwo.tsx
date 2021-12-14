@@ -5,7 +5,8 @@ import home2 from '../../../../assets/images/home_2.jpg';
 import home3 from '../../../../assets/images/home_3.jpg';
 const HomeGridTwo = () => {
     return (
-        <div className="grid grid-cols-3 gap-4 mt-5">
+
+        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-2 mt-5">
             <div className="card shadow-xl image-full text-center">
                 <figure>
                     <img alt="" src={home5} />

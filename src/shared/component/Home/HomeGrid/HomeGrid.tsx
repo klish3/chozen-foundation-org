@@ -25,7 +25,7 @@ let homegridObj: HomeGridCardObj[] = [{
 
 const HomeGrid = () => {
     return (
-        <div className="grid grid-cols-4 gap-2 mt-5">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-2 mt-5">
             {homegridObj.map((item: HomeGridCardObj) =>
                 <HomeGridCard {...item} />
             )}

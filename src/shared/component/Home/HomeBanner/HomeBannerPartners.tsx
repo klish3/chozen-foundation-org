@@ -1,4 +1,4 @@
-import './HomeBanner.css'
+import './HomeBanner.scss'
 const HomeBannerPartners = () => {
     return (
 
