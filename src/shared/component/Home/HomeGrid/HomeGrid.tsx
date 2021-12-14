@@ -16,11 +16,16 @@ let homegridObj: HomeGridCardObj[] = [{
     title: 'values',
     desc: 'Commitment \n Compassion \n Collaboration \n Conscientiousnes',
     color: 'values-card'
+},
+{
+    title: 'purpose',
+    desc: 'Assist with the essential resourcess Zimbabweans need to live a healthy life',
+    color: 'values-card'
 }];
 
 const HomeGrid = () => {
     return (
-        <div className="grid grid-cols-3 gap-2 mt-5">
+        <div className="grid grid-cols-4 gap-2 mt-5">
             {homegridObj.map((item: HomeGridCardObj) =>
                 <HomeGridCard {...item} />
             )}

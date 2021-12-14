@@ -8,6 +8,7 @@ const navigation = [
     { name: 'Projects', href: '/projects', current: false },
     { name: 'Contact', href: '/contact', current: false },
     { name: 'Donate', href: '/donate', current: false },
+    { name: 'Landing', href: '/landing', current: false },
 ]
 const classNames = (...classes: string[]) => {
     return classes.filter(Boolean).join(' ')

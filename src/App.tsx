@@ -10,6 +10,7 @@ import Champions from './views/Champions';
 import Work from './views/Work';
 import Home from './views/Home';
 import TopNav from './shared/component/TopNav';
+import Landing from './views/Landing';
 
 
 const App = () => {
@@ -17,27 +18,32 @@ const App = () => {
   return (
     <Router>
       <TopNav />
-      <div className="container w-screen h-screen">
-        <Switch>
 
-          <Route exact path="/">
-            {/* <Landing /> */}
-            <Home />
-          </Route>
-          <Route path="/story">
-            <Story />
-          </Route>
-          <Route path="/champions">
-            <Champions />
-          </Route>
-          <Route path="/donate">
-            <Donations />
-          </Route>
-          <Route path="/work">
-            <Work />
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+
+        <Route exact path="/">
+          {/* <Landing /> */}
+          <Home />
+        </Route>
+        <Route path="/story">
+
+          <Story />
+
+        </Route>
+        <Route path="/champions">
+          <Champions />
+        </Route>
+        <Route path="/donate">
+          <Donations />
+        </Route>
+        <Route path="/work">
+          <Work />
+        </Route>
+        <Route path="/landing">
+          <Landing />
+        </Route>
+      </Switch>
+
 
     </Router>
   );

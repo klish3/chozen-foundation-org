@@ -2,7 +2,6 @@
 
 import HomeBanner from '../shared/component/Home/HomeBanner/HomeBanner';
 import HomeBannerPartners from '../shared/component/Home/HomeBanner/HomeBannerPartners';
-import HomeCarousel from '../shared/component/Home/HomeCarousel/HomeCarousel';
 import HomeFooter from '../shared/component/Home/HomeFooter';
 import HomeGrid from '../shared/component/Home/HomeGrid/HomeGrid';
 import HomeGridTwo from '../shared/component/Home/HomeGrid/HomeGridTwo';
@@ -10,13 +9,17 @@ import HomeGridTwo from '../shared/component/Home/HomeGrid/HomeGridTwo';
 const Home = () => {
     return (
         <div>
-            <HomeCarousel />
-            <HomeGrid />
-            <HomeBanner />
-            <HomeGridTwo />
+
+            <div className="container">
+                <HomeGrid />
+                <HomeBanner />
+                <HomeGridTwo />
+
+            </div>
             <HomeBannerPartners />
             {/* HomeNewsletter */}
             <HomeFooter />
+
         </div>
     );
 }

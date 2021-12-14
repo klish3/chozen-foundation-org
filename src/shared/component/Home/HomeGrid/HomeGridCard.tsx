@@ -8,9 +8,9 @@ const HomeGridCard = (hcObj: HomeGridCardObj) => {
         <div className={cardStyle}>
             <div className="card-body text-center">
                 <div className="border-2 border-opacity-100 w-12 h-7 mx-auto">OUR</div>
-                <div className="divide-y">
-                    <h2 className="card-title text-accent text-4xl">{hcObj.title}</h2>
-                    <p className="font-bold">{hcObj.desc}</p>
+                <div className="divide-y pt-2">
+                    <h2 className="card-title text-gray text-4xl pt-2">{hcObj.title}</h2>
+                    <p>{hcObj.desc}</p>
                 </div>
             </div>
         </div>

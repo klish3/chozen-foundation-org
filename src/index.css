@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background-color:#ffff;
+html,
+body {
+    width:100%;
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
 }
