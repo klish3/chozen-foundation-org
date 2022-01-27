@@ -1,5 +1,5 @@
 import pic09 from '../../../assets/images/home_2.jpg';
-import HomeCarousel from './HomeCarousel/HomeCarousel';
+
 const HomeHeaderBanner = () => {
     return (
         <div>
