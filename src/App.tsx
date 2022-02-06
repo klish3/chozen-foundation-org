@@ -35,13 +35,13 @@ const App = () => {
             <HowToHelp />
           </Route>
 
-          <Route path="/story">
+          {/* <Route path="/story">
             <Story />
           </Route>
 
           <Route path="/work">
             <Work />
-          </Route>
+          </Route> */}
 
         </Switch>
       </div>
