@@ -1,23 +1,15 @@
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
-
-const Donations = () =>{
-    return (
+const Donations = () => {
+  return (
     <div id="wrapper">
 
-      {/* <!-- Header --> */}
-      <header id="header">
-        <a href="/" className="logo">Donate</a>
-      </header>
-
-      <Nav />
 
       {/* <!-- Main --> */}
       <div id="main">
-        <p>Details on how to donate are coming soon</p>
+        <p>Donations make up a majority of our financial contributions. It is only through your donations that we are able to launch new initiatives and reach a wider group of people in Zimbabwe.
+          If would like to support us in our mission of helping communities in Zimbabwe, then donate today and help us transform lives and bring hope to the most vulnerable communities in Zimbabwe.</p>
       </div>
       {/* <!-- Footer --> */}
-      <Footer />
+
     </div>
   );
 }

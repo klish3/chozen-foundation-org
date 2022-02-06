@@ -6,10 +6,12 @@ import {
 // import Landing from './views/Landing';
 import Story from './views/Story';
 import Donations from './views/Donate';
-import Champions from './views/Champions';
 import Work from './views/Work';
 import Home from './views/Home';
 import TopNav from './shared/component/TopNav';
+import Footer from './components/Footer';
+import About from './views/About';
+import HowToHelp from './views/HowToHelp';
 
 
 const App = () => {
@@ -21,24 +23,29 @@ const App = () => {
         <Switch>
 
           <Route exact path="/">
-            {/* <Landing /> */}
             <Home />
           </Route>
-          <Route path="/story">
-            <Story />
-          </Route>
-          <Route path="/champions">
-            <Champions />
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/donate">
             <Donations />
           </Route>
+          <Route path="/how-to-help">
+            <HowToHelp />
+          </Route>
+
+          <Route path="/story">
+            <Story />
+          </Route>
+
           <Route path="/work">
             <Work />
           </Route>
+
         </Switch>
       </div>
-
+      <Footer />
     </Router>
   );
 }
