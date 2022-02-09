@@ -4,9 +4,9 @@ import {
   Route
 } from 'react-router-dom';
 // import Landing from './views/Landing';
-import Story from './views/Story';
+
 import Donations from './views/Donate';
-import Work from './views/Work';
+
 import Home from './views/Home';
 import TopNav from './shared/component/TopNav';
 import Footer from './components/Footer';

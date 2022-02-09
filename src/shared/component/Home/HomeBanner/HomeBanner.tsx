@@ -14,7 +14,7 @@ const HomeBanner = () => {
                     <p className="mb-3 text-xl">
                         volunteer services or make a donation
                     </p>
-                    <a className="">
+                    <a href="/" className="">
                         <u>
                             MORE INFO  {'>'}
                         </u>

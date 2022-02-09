@@ -1,12 +1,12 @@
 import { Disclosure } from '@headlessui/react'
-import HomeHeaderBanner from "./Home/HomeHeaderBanner";
 import { X, Menu } from 'react-feather';
+import TopNavHeader from './Home/TopNavHeader';
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
-    { name: 'About', href: '/about', current: false },
-    { name: 'Donate', href: '/donate', current: false },
     { name: 'How To Help', href: '/how-to-help', current: false },
+    { name: 'About', href: '/about', current: false },
+
 ]
 const classNames = (...classes: string[]): string => {
     return classes.filter(Boolean).join(' ')
@@ -16,7 +16,9 @@ const TopNav = () => {
 
     return (
         <div>
-            <HomeHeaderBanner />
+
+            <TopNavHeader />
+
             <Disclosure as="nav" className="bg-info">
                 {({ open }) => (
                     <>

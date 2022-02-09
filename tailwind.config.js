@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('daisyui'),
+    require('flowbite/plugin')
   ],
   theme: {
     container: {
