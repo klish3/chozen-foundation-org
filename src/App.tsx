@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <TopNav />
-      <div className="container w-screen h-screen">
+      <div className="container w-screen text-xl text-gray-800 leading-normal">
         <Switch>
 
           <Route exact path="/">

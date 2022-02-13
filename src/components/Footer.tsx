@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <div>
 
             <footer className="p-10 footer bg-base-200 text-base-content footer-center">
                 <div className="grid grid-flow-col gap-4">
-                    <a href="/" className="link link-hover">Home</a>
-                    <a href="/about" className="link link-hover">About</a>
-                    <a href="/how-to-help" className="link link-hover">How to help</a>
+                    <Link to="/" className="link link-hover">Home</Link>
+                    <Link to="/how-to-help" className="link link-hover">How to help</Link>
+                    <Link to="/about" className="link link-hover">About</Link>
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
