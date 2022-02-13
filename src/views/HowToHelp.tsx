@@ -91,7 +91,6 @@ const HowToHelp = () => {
                             <strong>At Work</strong>
                             <br />
                             <span>Workplace is a great wonderful environment to look for fundraising opportunities.</span>
-
                         </Item>
                     </div>
                 </div>

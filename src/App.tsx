@@ -19,12 +19,12 @@ const App = () => {
   return (
     <Router>
       <TopNav />
-      <div className="container w-screen text-xl text-gray-800 leading-normal">
-        <Switch>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-          <Route exact path="/">
-            <Home />
-          </Route>
+        <div className="container w-screen text-xl text-gray-800 leading-normal">
           <Route path="/about">
             <About />
           </Route>
@@ -34,17 +34,8 @@ const App = () => {
           <Route path="/how-to-help">
             <HowToHelp />
           </Route>
-
-          {/* <Route path="/story">
-            <Story />
-          </Route>
-
-          <Route path="/work">
-            <Work />
-          </Route> */}
-
-        </Switch>
-      </div>
+        </div>
+      </Switch>
       <Footer />
     </Router>
   );
