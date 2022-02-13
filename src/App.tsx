@@ -8,17 +8,18 @@ import {
 import Donations from './views/Donate';
 
 import Home from './views/Home';
-import TopNav from './shared/component/TopNav';
 import Footer from './components/Footer';
 import About from './views/About';
 import HowToHelp from './views/HowToHelp';
+import NewNav from './shared/component/NewNav';
 
 
 const App = () => {
 
   return (
     <Router>
-      <TopNav />
+      {/* <TopNav /> */}
+      <NewNav />
       <Switch>
         <Route exact path="/">
           <Home />

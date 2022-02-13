@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import landing from '../assets/images/chzen-landing-bg.png';
 export const Home = () => {
     return (
@@ -19,36 +20,26 @@ export const Home = () => {
             </div>
             <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
                 <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-                    <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                        Brand new
-                    </p>
+
                     <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                        Everything you
+                        Welcome to the
                         <br className="hidden md:block" />
-                        can imagine{' '}
+                        Chozen{' '}
                         <span className="inline-block text-deep-purple-accent-400">
-                            is real
+                            Foundation
                         </span>
                     </h2>
                     <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                        quae. explicabo.
+                        Our Goadl is to be the catalyst of change for vulnerable and disadvanatged people living in Zimbabwe
                     </p>
                     <div className="flex items-center">
-                        <a
-                            href="/"
-                            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        <Link
+                            to="/"
+                            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-primary transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         >
                             Get started
-                        </a>
-                        <a
-                            href="/"
-                            aria-label=""
-                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-                        >
-                            Learn more
-                        </a>
+                        </Link>
+
                     </div>
                 </div>
             </div>
