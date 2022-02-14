@@ -29,9 +29,9 @@ const Donations = () => {
               </div>
               <div className="lg:w-1/2">
                 <p className="mb-4 text-base text-gray-700">
-                  <u>NAME:</u> CHOZEN FOUNDATION INC <br />
-                  <u>BSB:</u> 013400 <br />
-                  <u>ACCOUNT:</u>  155254806 <br />
+                  <u>NAME:</u> <br />CHOZEN FOUNDATION INC <br />
+                  <u>BSB:</u><br /> 013400 <br />
+                  <u>ACCOUNT:</u><br />  155254806 <br />
                 </p>
 
               </div>
