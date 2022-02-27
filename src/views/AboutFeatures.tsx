@@ -5,6 +5,21 @@ export const AboutFeatures = () => {
                 <div className="flex flex-col sm:flex-row">
 
                     <div>
+                        <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                            <svg
+                                className="w-12 h-12 text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                            >
+                                <polygon
+                                    strokeWidth="3"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                            </svg>
+                        </div>
                         <h6 className="mb-2 font-semibold leading-5">OUR KEY FOCUS AREAS</h6>
                         <p className="mb-3 text-sm text-gray-900">
                             As a non-profit working in assisting the disadvantaged and vulnerable communities in Zimbabwe, our mission is to help these communities with resources and guidance they require to lead independent, self-sufficient and sustainable lives. We achieve our mission by focusing on key areas of development, which are:
@@ -89,6 +104,21 @@ export const AboutFeatures = () => {
                 <div className="flex flex-col sm:flex-row">
 
                     <div>
+                        <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                            <svg
+                                className="w-12 h-12 text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                            >
+                                <polygon
+                                    strokeWidth="3"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                            </svg>
+                        </div>
                         <h6 className="mb-2 font-semibold leading-5">OUR VALUES</h6>
 
                         <ul className="mb-4 -ml-1 space-y-2  text-sm">

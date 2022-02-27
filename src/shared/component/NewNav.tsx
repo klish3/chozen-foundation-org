@@ -15,6 +15,16 @@ export const NewNav = () => {
                         <ul className="flex items-center hidden space-x-8 lg:flex">
                             <li>
                                 <Link
+                                    to="/our-board"
+                                    aria-label="How to Help"
+                                    title="How to Help"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                >
+                                    Our Board
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
                                     to="/how-to-help"
                                     aria-label="Our product"
                                     title="Our product"
@@ -23,11 +33,22 @@ export const NewNav = () => {
                                     How To Help
                                 </Link>
                             </li>
+
+                            <li>
+                                <Link
+                                    to="/our-initiatives"
+                                    aria-label="Our Initiatives"
+                                    title="our initiatives"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                >
+                                    Our Initiatives
+                                </Link>
+                            </li>
                             <li>
                                 <Link
                                     to="/donate"
-                                    aria-label="Our product"
-                                    title="Our product"
+                                    aria-label="Donate"
+                                    title="donate"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                                 >
                                     Donate
@@ -36,8 +57,8 @@ export const NewNav = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    aria-label="Product pricing"
-                                    title="Product pricing"
+                                    aria-label="about"
+                                    title="about"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                                 >
                                     About
@@ -119,9 +140,19 @@ export const NewNav = () => {
                                             <ul className="space-y-4">
                                                 <li>
                                                     <Link
+                                                        to="/our-board"
+                                                        aria-label="How to Help"
+                                                        title="How to Help"
+                                                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                                    >
+                                                        Our Board
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link
                                                         to="/how-to-help"
-                                                        aria-label="Our product"
-                                                        title="Our product"
+                                                        aria-label="How to Help"
+                                                        title="How to Help"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         How to help
@@ -129,9 +160,9 @@ export const NewNav = () => {
                                                 </li>
                                                 <li>
                                                     <Link
-                                                        to="/"
-                                                        aria-label="Our product"
-                                                        title="Our product"
+                                                        to="/donate"
+                                                        aria-label="Donate"
+                                                        title="donate"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         Donate
@@ -139,9 +170,9 @@ export const NewNav = () => {
                                                 </li>
                                                 <li>
                                                     <Link
-                                                        to="/"
-                                                        aria-label="Product pricing"
-                                                        title="Product pricing"
+                                                        to="/about"
+                                                        aria-label="About"
+                                                        title="About"
                                                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                     >
                                                         About

@@ -1,6 +1,8 @@
-export const AboutInitiatives = () => {
+import initImg1 from '../assets/images/home_page_1.png';
+import initImg2 from '../assets/images/bags.png';
+export const Initiatives = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mb-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     <span className="relative inline-block">
@@ -53,6 +55,11 @@ export const AboutInitiatives = () => {
                         Fill a Backpack for Zimbabwe is Chozen Foundation’s flagship program that kickstarted the foundation’s journey of helping people and communities in Zimbabwe. The program mobilizes community support to gather and collect daily and essential supplies such as clothing, shoes, school stationery, baby blankets for the people of Zimbabwe who are in need.
 
                     </p>
+                    <img
+                        className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                        src={initImg2}
+                        alt=""
+                    />
                 </div>
                 <div className="max-w-md sm:mx-auto sm:text-center">
                     <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -76,7 +83,11 @@ export const AboutInitiatives = () => {
                         For Valentine’s Day, 2021, Chozen Foundation wanted to do something special and memorable for children. So, we launched the Greater Love Initiative where Chozen Foundation donated food hampers, school supplies, sanitary ware and cleaning detergents to two children’s homes, namely, Tanyaradzwa Children’s Home and Simbaredenga Newstart Children’s Home.
 
                     </p>
-
+                    <img
+                        className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                        src={initImg1}
+                        alt=""
+                    />
                 </div>
             </div>
         </div>

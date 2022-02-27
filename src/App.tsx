@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import About from './views/About';
 import HowToHelp from './views/HowToHelp';
 import NewNav from './shared/component/NewNav';
+import OurBoard from './views/OurBoard';
+import { Initiatives } from './views/Initiatives';
 
 
 const App = () => {
@@ -34,6 +36,12 @@ const App = () => {
           </Route>
           <Route path="/how-to-help">
             <HowToHelp />
+          </Route>
+          <Route path="/our-initiatives">
+            <Initiatives />
+          </Route>
+          <Route path="/our-board">
+            <OurBoard />
           </Route>
         </div>
       </Switch>

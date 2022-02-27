@@ -1,6 +1,6 @@
 import AbouFounderStory from "./AbouFounderStory";
 import { AboutFeatures } from "./AboutFeatures";
-import { AboutInitiatives } from "./AboutInitiatives";
+
 
 const About = () => {
   return (
@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
       <AboutFeatures />
-      <AboutInitiatives />
+
       <hr />
       <AbouFounderStory />
     </div>
