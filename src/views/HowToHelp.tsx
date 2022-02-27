@@ -95,7 +95,7 @@ const HowToHelp = () => {
                             <Item title="Fundraise">
                                 <strong>Birthday</strong>
                                 <br />
-                                <span>You can help us fundraise to celebrate our beneficiaries’ birthdays.</span>
+                                <span>Raise money for a special occasion. Dedicate your birthday or special occasion to Chozen Foundation.</span>
                                 <br />
                                 <br />
                                 <strong> Get Active</strong>
