@@ -1,3 +1,4 @@
+import { Activity, LifeBuoy } from "react-feather";
 import AbouFounderStory from "./AbouFounderStory";
 import { AboutFeatures } from "./AboutFeatures";
 
@@ -23,19 +24,7 @@ const About = () => {
       <div className="mt-5 grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-2">
         <div className="max-w-md">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <Activity />
           </div>
           <h6 className="mb-2 font-semibold leading-5">OUR MISSION</h6>
           <p className="mb-3 text-sm text-gray-900">
@@ -45,19 +34,7 @@ const About = () => {
         </div>
         <div className="max-w-md">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+            <LifeBuoy />
           </div>
           <h6 className="mb-2 font-semibold leading-5">OUR VISION
           </h6>
