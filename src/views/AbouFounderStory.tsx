@@ -1,6 +1,3 @@
-
-
-import home5 from '../assets/images/home_5.jpg';
 const AboutFounderStory = () => {
     return (
         <div className="px-4 py-16 mx-auto max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

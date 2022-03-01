@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import pic09 from '../../../assets/images/chozen_logo_transparent.png';
+
 const TopNavHeader = () => {
 
     return (
