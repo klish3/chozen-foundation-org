@@ -10,11 +10,9 @@ const AboutFounderStory = () => {
                         FOUNDER STORY
                     </h2>
                     <div className="relative sm:mb-5 md:col-span-2 lg:col-span-2">
-                        <img
-                            className="inset-0 object-cover object-top sm:w-full lg:w-9/12 rounded shadow-lg h-full"
-                            src={home5}
-                            alt=""
-                        />
+                        <video className="inset-0 object-cover object-top sm:w-full lg:w-9/12 rounded shadow-lg h-full" autoPlay loop>
+                            <source src="https://firebasestorage.googleapis.com/v0/b/chozen-foundation.appspot.com/o/big_pack_2021_10%2Ffounder.mp4?alt=media&token=cdb0ebef-240f-4f41-8eb4-140e1b7c9624" type="video/mp4" />
+                        </video>
                     </div>
                 </div>
                 <div className="lg:w-1/2 text-base text-gray-700 md:text-lg">

@@ -15,25 +15,14 @@ export const NewNav = () => {
                         <ul className="flex items-center hidden space-x-8 lg:flex">
                             <li>
                                 <Link
-                                    to="/our-board"
-                                    aria-label="How to Help"
-                                    title="How to Help"
+                                    to="/about"
+                                    aria-label="about"
+                                    title="about"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                                 >
-                                    Our Board
+                                    About Us
                                 </Link>
                             </li>
-                            <li>
-                                <Link
-                                    to="/how-to-help"
-                                    aria-label="Our product"
-                                    title="Our product"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                                >
-                                    How To Help
-                                </Link>
-                            </li>
-
                             <li>
                                 <Link
                                     to="/our-initiatives"
@@ -44,6 +33,28 @@ export const NewNav = () => {
                                     Our Initiatives
                                 </Link>
                             </li>
+
+                            <li>
+                                <Link
+                                    to="/how-to-help"
+                                    aria-label="Our product"
+                                    title="Our product"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                >
+                                    How To Help
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/our-board"
+                                    aria-label="How to Help"
+                                    title="How to Help"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                >
+                                    Our Board
+                                </Link>
+                            </li>
+
                             <li>
                                 <Link
                                     to="/donate"
@@ -54,16 +65,7 @@ export const NewNav = () => {
                                     Donate
                                 </Link>
                             </li>
-                            <li>
-                                <Link
-                                    to="/about"
-                                    aria-label="about"
-                                    title="about"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                                >
-                                    About
-                                </Link>
-                            </li>
+
                         </ul>
 
 

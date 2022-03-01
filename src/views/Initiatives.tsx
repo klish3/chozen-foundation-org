@@ -1,5 +1,5 @@
 import initImg1 from '../assets/images/home_page_1.png';
-import initImg2 from '../assets/images/bags.png';
+import initImg2 from '../assets/images/home_page_2.png';
 export const Initiatives = () => {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mb-20">
@@ -55,11 +55,12 @@ export const Initiatives = () => {
                         Fill a Backpack for Zimbabwe is Chozen Foundation’s flagship program that kickstarted the foundation’s journey of helping people and communities in Zimbabwe. The program mobilizes community support to gather and collect daily and essential supplies such as clothing, shoes, school stationery, baby blankets for the people of Zimbabwe who are in need.
 
                     </p>
-                    <img
-                        className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-                        src={initImg2}
-                        alt=""
-                    />
+
+                    <div className="relative flex w-100 items-center sm:mb-5">
+                        <video className="sm:w-full lg:w-9/12 rounded shadow-lg h-full" autoPlay loop>
+                            <source src="https://firebasestorage.googleapis.com/v0/b/chozen-foundation.appspot.com/o/big_pack_2021_10%2Fbag_pack.mp4?alt=media&token=886fe61d-3516-4ad9-a967-86179c26474c" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
                 <div className="max-w-md sm:mx-auto sm:text-center">
                     <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -84,8 +85,13 @@ export const Initiatives = () => {
 
                     </p>
                     <img
-                        className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                        className="object-contain w-full rounded shadow-lg lg:rounded-none lg:shadow-none"
                         src={initImg1}
+                        alt=""
+                    />
+                    <img
+                        className="object-contain w-full rounded shadow-lg mt-10 lg:rounded-none lg:shadow-none"
+                        src={initImg2}
                         alt=""
                     />
                 </div>
