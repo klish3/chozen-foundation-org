@@ -29,7 +29,7 @@ export const Home = () => {
                             Foundation
                         </span>
                     </h2>
-                    <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+                    <p className="pr-5 mb-5 text-base text-gray-700 ">
                         Our Goal is to be the catalyst of change for vulnerable and disadvanatged people living in Zimbabwe
                     </p>
                     <div className="flex items-center">

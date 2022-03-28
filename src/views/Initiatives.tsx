@@ -29,14 +29,14 @@ export const Initiatives = () => {
                                 height="24"
                             />
                         </svg>
-                        <span className="relative">OUR INITIATIVES</span>
+                        <span className="relative">Our Initiatives</span>
                     </span>{' '}
 
                 </h2>
             </div>
             <div className="grid gap-8 row-gap-12 lg:grid-cols-2">
-                <div className="max-w-md sm:mx-auto sm:text-center">
-                    <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24 text-gray-800">
+                <div className="max-w-md sm:mx-auto">
+                    <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24 text-gray-800">
                         <svg className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20" viewBox="0 0 293 362" fill="#00000" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_361_19)">
                                 <path d="M229.6 222.65H62.6001C60.7436 222.65 58.9631 223.388 57.6503 224.7C56.3376 226.013 55.6001 227.794 55.6001 229.65V327.06C55.6001 328.917 56.3376 330.697 57.6503 332.01C58.9631 333.323 60.7436 334.06 62.6001 334.06H229.6C231.457 334.06 233.237 333.323 234.55 332.01C235.863 330.697 236.6 328.917 236.6 327.06V229.6C236.587 227.752 235.844 225.985 234.532 224.683C233.221 223.381 231.448 222.65 229.6 222.65V222.65ZM222.6 320.05H69.5801V271.35H90.4501V292.22C90.3452 293.197 90.4471 294.185 90.7491 295.119C91.0511 296.054 91.5464 296.915 92.2029 297.645C92.8593 298.376 93.6622 298.96 94.5594 299.361C95.4565 299.761 96.4278 299.967 97.4101 299.967C98.3924 299.967 99.3637 299.761 100.261 299.361C101.158 298.96 101.961 298.376 102.617 297.645C103.274 296.915 103.769 296.054 104.071 295.119C104.373 294.185 104.475 293.197 104.37 292.22V271.35H222.65L222.6 320.05ZM222.6 257.43H69.5801V236.56H222.65L222.6 257.43Z" />
@@ -46,25 +46,25 @@ export const Initiatives = () => {
                         </svg>
 
                     </div>
-                    <h6 className="mb-3 text-xl font-bold leading-5">Fill a Backpack for Zimbabwe</h6>
-                    <p className="mb-3 text-sm text-gray-900">
+                    <h6 className="mb-3 font-bold leading-5">Fill a Backpack for Zimbabwe</h6>
+                    <p className="mb-3  text-gray-900">
                         Fill a Backpack for Zimbabwe is Chozen Foundation’s flagship program that kickstarted the foundation’s journey of helping people and communities in Zimbabwe. The program mobilizes community support to gather and collect daily and essential supplies such as clothing, shoes, school stationery, baby blankets for the people of Zimbabwe who are in need.
 
                     </p>
 
                     <div className="relative flex w-100 items-center sm:mb-5">
-                        <video className="mx-auto mt-7 rounded shadow-lg w-3/4" autoPlay loop>
+                        <video className="mx-auto mt-7 rounded shadow-lg w-3/4" preload="auto" poster='https://firebasestorage.googleapis.com/v0/b/chozen-foundation.appspot.com/o/vidPosters%2Fbig_pack_poster.png?alt=media&token=6564d935-f141-4b3d-b6a7-6adac2feba50' autoPlay loop>
                             <source src="https://firebasestorage.googleapis.com/v0/b/chozen-foundation.appspot.com/o/big_pack_2021_10%2Fbag_pack.mp4?alt=media&token=886fe61d-3516-4ad9-a967-86179c26474c" type="video/mp4" />
                         </video>
                     </div>
                 </div>
-                <div className="max-w-md sm:mx-auto sm:text-center">
-                    <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+                <div className="max-w-md sm:mx-auto">
+                    <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                         <Heart className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20" />
                     </div>
-                    <h6 className="mb-3 text-xl font-bold leading-5">Greater Love Initiative
+                    <h6 className="mb-3 font-bold leading-5">Greater Love Initiative
                     </h6>
-                    <p className="mb-3 text-sm text-gray-900">
+                    <p className="mb-3  text-gray-900">
                         For Valentine’s Day, 2021, Chozen Foundation wanted to do something special and memorable for children. So, we launched the Greater Love Initiative where Chozen Foundation donated food hampers, school supplies, sanitary ware and cleaning detergents to two children’s homes, namely, Tanyaradzwa Children’s Home and Simbaredenga Newstart Children’s Home.
 
                     </p>

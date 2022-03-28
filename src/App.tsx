@@ -27,8 +27,8 @@ const App = () => {
           <Home />
         </Route>
 
-        <div className="container w-screen text-xl text-gray-800 leading-normal">
-          <Route path="/about">
+        <div className="container w-screen text-gray-800 leading-normal">
+          <Route path="/about-us">
             <About />
           </Route>
           <Route path="/donate">

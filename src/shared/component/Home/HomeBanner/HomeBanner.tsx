@@ -11,7 +11,7 @@ const HomeBanner = () => {
 
                         <br /> CHRISTMAS 2021
                     </h1>
-                    <p className="mb-3 text-xl">
+                    <p className="mb-3">
                         volunteer services or make a donation
                     </p>
                     <a href="/" className="">

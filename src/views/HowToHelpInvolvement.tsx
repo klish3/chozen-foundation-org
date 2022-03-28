@@ -33,7 +33,7 @@ export const HowToHelpInvolvement = () => {
                         </span>{' '}
 
                     </h2>
-                    <p className="text-base text-gray-700 md:text-lg">
+                    <p className=" text-gray-700 ">
                         Volunteers support our operations and initiatives in a variety of ways
                     </p>
                 </div>
@@ -125,7 +125,7 @@ export const HowToHelpInvolvement = () => {
                         </ol>
                         <br />
 
-                        <p className="text-base text-gray-700 md:text-lg">
+                        <p className=" text-gray-700 ">
                             If your answer to all these questions was a big YES, then we would very much like for you to join our team today. Apply today to volunteer with Chozen Foundation and we will be in touch with you.
                         </p>
                     </div>

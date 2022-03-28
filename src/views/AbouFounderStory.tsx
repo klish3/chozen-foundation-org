@@ -4,7 +4,7 @@ const AboutFounderStory = () => {
             <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
                 <div className="lg:w-1/2">
                     <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
-                        FOUNDER STORY
+                        Founder Story
                     </h2>
                     <div className="relative sm:mb-5 md:col-span-2 lg:col-span-2">
                         <video className="inset-0 object-cover object-top sm:w-full lg:w-9/12 rounded shadow-lg h-full" autoPlay loop>
@@ -12,9 +12,9 @@ const AboutFounderStory = () => {
                         </video>
                     </div>
                 </div>
-                <div className="lg:w-1/2 text-base text-gray-700 md:text-lg">
+                <div className="lg:w-1/2 lg:pt-10 lg:mt-3 text-base text-gray-700 ">
                     <p>
-                        When the COVID-19 pandemic hit in 2020, Taida was in-between jobs and had to rely on friends and family for financial support. It was during this period, that she began to contemplate the dire situation of many people in her home country, Zimbabwe. Unlike her, most people in Zimbabwe were struggling due to the pandemic and did not have friends or family who could help them stay afloat or take care of their financial needs. The government aid was not sufficient to help out the entire needy population too.
+                        When the COVID-19 pandemic hit in 2020, Taida was in-between jobs and had to rely on friends and family for financial support. It was during this period, that she began to contemplate the dire situation of many people in her home country, Zimbabwe. Unlike her, most people in Zimbabwe were struggling due to the pandemic and did not have friends or family who could help them stay afloat or take care of their financial needs. The government aid was not sufficient to help out the entire disadvantaged population too.
 
                     </p>
                     <p className="pt-5">
@@ -22,7 +22,7 @@ const AboutFounderStory = () => {
 
                     </p>
                     <p className="pt-5">
-                        The community response to the crowdfunding campaign was exceptional to the point that Taida’s lounge and bedroom were filled with things she kept receiving from supporters of the initiative. Taida decided to take the leap and founded the Chozen Foundation with the sole purpose of helping out disadvantaged and vulnerable communities in Zimbabwe. Having been raised by a single mother, Taida understands too well the struggles and hardships people in Zimbabwe are facing, their situations made worse by the ongoing pandemic. An African proverb states that “It takes a village to raise a child”, the same goes for the beneficiaries of the Chozen Foundation. Only when a community comes together to support and uplift one another, can all grow and prosper. As Chozen Foundation continues working under its founders’ able guidance, Taida envisions establishing a village through the support of Chozen Foundation’s community.
+                        The community response to the crowdfunding campaign was exceptional to the point that Taida’s lounge and bedroom were filled with donations she kept receiving from supporters of the initiative. Taida decided to take the leap and founded the Chozen Foundation with the sole purpose of helping out disadvantaged and vulnerable communities in Zimbabwe. Having been raised by a single mother, Taida understands too well the struggles and hardships people in Zimbabwe are facing, their situations made worse by the ongoing pandemic. An African proverb states that “It takes a village to raise a child”, the same goes for the beneficiaries of the Chozen Foundation. Only when a community comes together to support and uplift one another, can all grow and prosper. As Chozen Foundation continues working under its founders’ able guidance, Taida envisions establishing a village through the support of Chozen Foundation’s community.
 
                     </p>
                 </div>

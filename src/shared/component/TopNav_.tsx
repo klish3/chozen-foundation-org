@@ -4,7 +4,7 @@ import TopNavHeader from './Home/TopNavHeader';
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
-    { name: 'How To Help', href: '/how-to-help', current: false },
+    { name: 'How to help', href: '/how-to-help', current: false },
     { name: 'About', href: '/about', current: false },
 
 ]
@@ -45,7 +45,7 @@ const TopNav = () => {
                                                     href={item.href}
                                                     className={classNames(
                                                         item.current ? 'underline text-white' : 'text-gray-300 hover:text-bold hover:text-white',
-                                                        'px-3 py-2 rounded-md text-sm font-medium'
+                                                        'px-3 py-2 rounded-md text-base font-medium'
                                                     )}
                                                     aria-current={item.current ? 'page' : undefined}
                                                 >

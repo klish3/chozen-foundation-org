@@ -36,7 +36,7 @@ const HowToHelp = () => {
                                         height="24"
                                     />
                                 </svg>
-                                <span className="relative">HOW TO HELP</span>
+                                <span className="relative">How to help</span>
                             </span>{' '}
 
                         </h2>
@@ -76,13 +76,13 @@ const HowToHelp = () => {
                             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 Become a Chozen Champion
                             </h2>
-                            <p className="text-base text-gray-700 md:text-lg ">
+                            <p className="text-base text-gray-700  ">
                                 Ideas on how to help
                             </p>
                         </div>
                         <div className="space-y-4">
                             <Item title="Donate">
-                                Donations make up a majority of our financial contributions. It is only through your donations that we are able to launch new initiatives and reach a wider group of people in Zimbabwe. If would like to support us in our mission of helping communities in Zimbabwe, then donate today and help us transform lives and bring hope to the most vulnerable communities in Zimbabwe.
+                                Donations make up a majority of our financial contributions. It is only through your donations that we are able to launch new initiatives and reach a wider group of people in Zimbabwe. If you would like to support us in our mission of helping communities in Zimbabwe, then donate today and help us transform lives and bring hope to the most vulnerable communities in Zimbabwe.
                                 <br />
                                 <br />
                                 <Link

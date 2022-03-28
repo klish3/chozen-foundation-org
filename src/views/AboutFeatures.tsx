@@ -10,11 +10,11 @@ export const AboutFeatures = () => {
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                             <Target />
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">OUR KEY FOCUS AREAS</h6>
-                        <p className="mb-3 text-sm text-gray-900">
+                        <h6 className="mb-2 font-semibold text-xl leading-5">Our Key focus Areas</h6>
+                        <p className="mb-3 text-base text-gray-900">
                             As a non-profit working in assisting the disadvantaged and vulnerable communities in Zimbabwe, our mission is to help these communities with resources and guidance they require to lead independent, self-sufficient and sustainable lives. We achieve our mission by focusing on key areas of development, which are:
                         </p>
-                        <ul className="mb-4 -ml-1 space-y-2  text-sm">
+                        <ul className="mb-4 -ml-1 space-y-2  text-base">
                             <li className="flex items-start">
                                 <span className="mr-1">
                                     <svg
@@ -97,29 +97,29 @@ export const AboutFeatures = () => {
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                             <Heart />
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">OUR VALUES</h6>
+                        <h6 className="mb-2 text-xl font-semibold leading-5">Our Values</h6>
 
-                        <ul className="mb-4 -ml-1 space-y-2  text-sm">
+                        <ul className="mb-4 -ml-1 space-y-2  text-base">
                             <li className=" items-start">
 
-                                <strong><i>Commitment:</i></strong> <br />
+                                <strong>Commitment:</strong> <br />
                                 We are deeply committed to transforming lives for the better.
                             </li>
                             <li className=" items-start">
 
-                                <strong><i>Compassion:</i></strong>
+                                <strong>Compassion:</strong>
                                 <br />
                                 In a world where compassion is hard to come by, we are guided by empathy in all that we do.
                             </li>
                             <li className=" items-start">
 
-                                <strong><i>Collaboration:</i></strong>
+                                <strong>Collaboration:</strong>
                                 <br />
                                 We believe in working collaboratively to turn our purpose into reality.
                             </li>
                             <li className=" items-start">
 
-                                <strong><i>Conscientiousness:</i></strong>
+                                <strong>Conscientiousness:</strong>
                                 <br />
                                 We are able to remain true to our purpose when we stay diligent and never lose sight of our mission.
                             </li>
