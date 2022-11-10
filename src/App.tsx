@@ -1,28 +1,24 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import Landing from './views/Landing';
-import Story from './views/Story';
-import Donations from './views/Donate';
-import Champions from './views/Champions';
-import Work from './views/Work';
-import Home from './views/Home';
-import TopNav from './shared/component/TopNav';
+import Story from "./views/Story";
+import Donations from "./views/Donate";
+import Champions from "./views/Champions";
+import Work from "./views/Work";
+// import Home from "./views/Home";
+import TopNav from "./shared/component/TopNav";
+import Landing from "./views/Landing";
+import "./App.css";
 
-
-const App = () => {
-
+export const App: React.FC = () => {
   return (
     <Router>
       <TopNav />
       <div className="container w-screen h-screen">
         <Switch>
-
           <Route exact path="/">
-            {/* <Landing /> */}
-            <Home />
+            <Landing />
+            {/* <Home /> */}
           </Route>
           <Route path="/story">
             <Story />
@@ -38,9 +34,8 @@ const App = () => {
           </Route>
         </Switch>
       </div>
-
     </Router>
   );
-}
+};
 
 export default App;

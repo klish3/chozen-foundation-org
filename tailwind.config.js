@@ -1,9 +1,8 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('daisyui'),
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   theme: {
     container: {
       center: true,
@@ -14,8 +13,6 @@ module.exports = {
     extend: {},
   },
   daisyui: {
-    themes: [
-      'light',
-    ],
+    themes: ["light"],
   },
-}
+};

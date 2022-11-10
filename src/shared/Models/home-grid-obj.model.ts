@@ -1,6 +1,5 @@
-
 export interface HomeGridCardObj {
-    title: string;
-    desc: string;
-    color: string;
+  title: string;
+  desc: string;
+  color: string;
 }

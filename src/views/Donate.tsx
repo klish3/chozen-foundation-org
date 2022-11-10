@@ -1,13 +1,15 @@
+import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
-const Donations = () =>{
-    return (
+export const Donations: React.FC = () => {
+  return (
     <div id="wrapper">
-
       {/* <!-- Header --> */}
       <header id="header">
-        <a href="/" className="logo">Donate</a>
+        <a href="/" className="logo">
+          Donate
+        </a>
       </header>
 
       <Nav />
@@ -20,5 +22,5 @@ const Donations = () =>{
       <Footer />
     </div>
   );
-}
+};
 export default Donations;
