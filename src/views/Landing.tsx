@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import LandingFeature from "../components/LandingFeature";
 import LandingSectionThree from "../components/LandingSectionThree";
 import LandingSectionTwo from "../components/LandingSectionTwo";
-import Nav from "../components/Nav";
+import Nav from "../shared/component/Nav";
 
 export const Landing: React.FC = () => {
   return (

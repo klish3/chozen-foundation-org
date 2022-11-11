@@ -1,7 +1,4 @@
 import React from "react";
-import Nav from "../components/Nav";
-import logo from "../assets/images/chozen_logo_transparent.png";
-import Footer from "../components/Footer";
 
 export const Story: React.FC = () => {
   return (
@@ -13,13 +10,11 @@ export const Story: React.FC = () => {
         </a>
       </header>
 
-      <Nav />
-
       {/* <!-- Main --> */}
       <div id="main">
         <section className="post">
           <div className="image main">
-            <img src={logo} width={50} alt="" />
+            <img src={""} width={50} alt="" />
           </div>
           <header className="major">
             <h1>Our Story</h1>
@@ -52,8 +47,6 @@ export const Story: React.FC = () => {
         </section>
      */}
       </div>
-      {/* <!-- Footer --> */}
-      <Footer />
     </div>
   );
 };
