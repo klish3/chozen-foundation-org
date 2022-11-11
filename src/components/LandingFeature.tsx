@@ -25,8 +25,6 @@ const LandingFeature = () => {
                 </section>
             </div>
             <br />
-
-
             <div id="main">
                 <section>
                     <span>
@@ -40,16 +38,9 @@ const LandingFeature = () => {
                             <li>Family and Domestic Violence</li>
                         </ul>
                     </span>
-
-
                 </section>
             </div>
-
         </div>
-
-
-
-
     );
 }
 export default LandingFeature;

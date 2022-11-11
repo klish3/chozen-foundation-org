@@ -1,17 +1,9 @@
-import Nav from '../components/Nav';
 import logo from '../assets/images/chozen_logo_transparent.png';
-import Footer from '../components/Footer';
 
 const Story = () => {
   return (
     <div id="wrapper">
 
-      {/* <!-- Header --> */}
-      <header id="header">
-        <a href="/" className="logo">Our story</a>
-      </header>
-
-      <Nav />
 
       {/* <!-- Main --> */}
       <div id="main">
@@ -46,8 +38,7 @@ const Story = () => {
      */}
 
       </div>
-      {/* <!-- Footer --> */}
-      <Footer />
+
     </div>
   );
 }

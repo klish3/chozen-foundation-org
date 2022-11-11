@@ -1,15 +1,14 @@
 import { Disclosure } from '@headlessui/react'
-import HomeHeaderBanner from "./Home/HomeHeaderBanner";
 import { X, Menu } from 'react-feather';
+import TopNavHeader from './Home/TopNavHeader';
 
 const navigation = [
     { name: 'Home', href: '/', current: true },
+    { name: 'How to help', href: '/how-to-help', current: false },
     { name: 'About', href: '/about', current: false },
-    { name: 'Projects', href: '/projects', current: false },
-    { name: 'Contact', href: '/contact', current: false },
-    { name: 'Donate', href: '/donate', current: false },
+
 ]
-const classNames = (...classes: string[]) => {
+const classNames = (...classes: string[]): string => {
     return classes.filter(Boolean).join(' ')
 }
 
@@ -17,20 +16,22 @@ const TopNav = () => {
 
     return (
         <div>
-            <HomeHeaderBanner />
+
+            <TopNavHeader />
+
             <Disclosure as="nav" className="bg-info">
                 {({ open }) => (
                     <>
                         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                             <div className="relative flex items-center justify-between h-16">
-                                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                                     {/* Mobile menu button*/}
                                     <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:text-bold focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                         <span className="sr-only">Open main menu</span>
                                         {open ? (
                                             <X />
                                         ) : (
-                                            <Menu className="text-white" />
+                                            <Menu className="text-white ml-auto" />
                                         )}
                                     </Disclosure.Button>
                                 </div>
@@ -44,7 +45,7 @@ const TopNav = () => {
                                                     href={item.href}
                                                     className={classNames(
                                                         item.current ? 'underline text-white' : 'text-gray-300 hover:text-bold hover:text-white',
-                                                        'px-3 py-2 rounded-md text-sm font-medium'
+                                                        'px-3 py-2 rounded-md text-base font-medium'
                                                     )}
                                                     aria-current={item.current ? 'page' : undefined}
                                                 >
