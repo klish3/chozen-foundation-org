@@ -5,9 +5,9 @@ import Story from "./views/Story";
 import Donations from "./views/Donate";
 import Champions from "./views/Champions";
 import Work from "./views/Work";
-// import Home from "./views/Home";
+import Home from "./views/Home";
 import TopNav from "./shared/component/TopNav";
-import Landing from "./views/Landing";
+// import Landing from "./views/Landing";
 import "./App.css";
 
 export const App: React.FC = () => {
@@ -17,8 +17,8 @@ export const App: React.FC = () => {
       <div className="container w-screen h-screen">
         <Switch>
           <Route exact path="/">
-            <Landing />
-            {/* <Home /> */}
+            {/* <Landing /> */}
+            <Home />
           </Route>
           <Route path="/story">
             <Story />
