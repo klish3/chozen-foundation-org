@@ -14,10 +14,11 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es5",
+    "target": "ESNext",
     "noImplicitAny": false,
     "downlevelIteration": true,
     "experimentalDecorators": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
